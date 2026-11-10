@@ -1,0 +1,4 @@
+opencv-python
+mediapipe==0.10.21
+pyautogui
+pywin32 ; sys_platform == "win32"
