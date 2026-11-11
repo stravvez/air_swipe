@@ -27,7 +27,7 @@ import pyautogui
 # ---------------- Tuning ----------------
 SWIPE_THRESHOLD = 0.20   # fraction of frame width the hand must travel
 SWIPE_WINDOW = 0.4       # seconds within which that travel must happen
-COOLDOWN = 0.3           # seconds to ignore movement after a swipe
+COOLDOWN = 0.6           # seconds to ignore movement after a swipe
 REQUIRE_OPEN_PALM = True # only count swipes with an open hand (fewer false triggers)
 INVERT_DIRECTION = False # True = swipe right for next slide
 # ----------------------------------------
